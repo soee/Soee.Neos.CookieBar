@@ -1,10 +1,11 @@
 .soee-cookie-bar {
-  z-index: $soee-cookie-bar-z-index;
-  position: fixed;
-  padding: $soee-cookie-bar-padding;
-  text-align: $soee-cookie-bar-text-align;
-  color: $soee-cookie-bar-text-color;
-  background-color: $soee-cookie-bar-bg;
+  z-index: $soee-cbar-z-index;
+  display: block;
+  position: $soee-cbar-position;
+  padding: $soee-cbar-padding;
+  text-align: $soee-cbar-text-align;
+  color: $soee-cbar-text-color;
+  background-color: $soee-cbar-bg;
 
   &.top,
   &.bottom {
@@ -21,6 +22,17 @@
   }
 
   a {
-    color: $soee-cookie-bar-link-color;
+    color: $soee-cbar-link-color;
+  }
+}
+
+.soee-cookie-bar .soee-cookie-bar-button {
+  display: inline-block;
+  padding: 2px 5px;
+  color: #666666;
+  background-color: #eeeeee;
+
+  @if $soee-cbar-btn-border-radius {
+    border-radius: $soee-cbar-btn-border-radius;
   }
 }
