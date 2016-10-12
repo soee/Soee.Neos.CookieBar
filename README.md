@@ -1,4 +1,4 @@
-# soee - Cookie Bar
+# [WIP!!!] soee - Cookie Bar
 
 Very simple yet configurable cookie bar package for Neos CMS. 
 
