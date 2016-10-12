@@ -7,7 +7,7 @@ Very simple yet configurable cookie bar package for Neos CMS.
 Require this package with composer using the following command:
 
 ```bash
-composer require soee/soee-neos-cookiebar
+composer require soee/neos-cookiebar
 ```
 
 Refresh page and you should see cookie bar at the bottom of the page (if using default configuration). 
