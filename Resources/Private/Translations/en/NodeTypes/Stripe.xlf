@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Soee.Neos.CookieBar" source-language="en" datatype="plaintext">
+		<body>
+
+			<trans-unit id="groups.stripeSettings" xml:space="preserve">
+				<source>Settings</source>
+			</trans-unit>
+
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Cookie Bar</source>
+			</trans-unit>
+
+			<trans-unit id="properties.placement" xml:space="preserve">
+				<source>Placement</source>
+			</trans-unit>
+            <trans-unit id="properties.placement.ui.help.message" xml:space="preserve">
+                <source>Defines cookie bar placement relative to the page.</source>
+            </trans-unit>
+		    <trans-unit id="properties.placement.selectBoxEditor.values.top" xml:space="preserve">
+                <source>Top</source>
+        	</trans-unit>
+		    <trans-unit id="properties.placement.selectBoxEditor.values.bottom" xml:space="preserve">
+                <source>Bottom</source>
+        	</trans-unit>
+
+			<trans-unit id="properties.termsDocument" xml:space="preserve">
+				<source>Terms Page</source>
+			</trans-unit>
+			<trans-unit id="properties.privacyPolicyDocument" xml:space="preserve">
+				<source>Privacy Policy Page</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

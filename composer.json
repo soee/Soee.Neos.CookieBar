@@ -1,0 +1,28 @@
+{
+    "name": "soee/neos-cookiebar",
+    "description": "Add description here",
+    "type": "typo3-flow-plugin",
+    "version": "1.0.0",
+    "author": "Marcin Sągol <kontakt@soee.pl>",
+    "contributors": [],
+    "require": {
+        "typo3/flow": "*"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Soee.Neos.CookieBar"
+        }
+    },
+    "keywords": [
+        "neos",
+        "cms",
+        "cookie",
+        "bar",
+        "policy",
+        "privacy",
+        "tracking",
+        "analytics",
+        "javascript"
+    ],
+    "license": "GPL-3.0+"
+}

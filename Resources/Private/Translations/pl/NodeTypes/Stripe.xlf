@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Soee.Neos.CookieBar" source-language="en" target-language="pl" datatype="plaintext">
+		<body>
+
+			<trans-unit id="groups.stripeSettings" xml:space="preserve">
+				<source>Settings</source>
+				<target xml:lang="pl" state="translated">Ustawienia</target>
+			</trans-unit>
+
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Cookie Bar</source>
+				<target xml:lang="pl" state="translated">Pasek ciasteczek</target>
+			</trans-unit>
+
+			<trans-unit id="properties.placement" xml:space="preserve">
+				<source>Placement</source>
+				<target xml:lang="pl" state="translated">Położenie</target>
+			</trans-unit>
+            <trans-unit id="properties.placement.ui.help.message" xml:space="preserve">
+                <source>Defines cookie bar placement relative to the page.</source>
+				<target xml:lang="pl" state="translated">Definiuje położenia paska ciasteczek relatywnie do strony.</target>
+            </trans-unit>
+		    <trans-unit id="properties.placement.selectBoxEditor.values.top" xml:space="preserve">
+                <source>Top</source>
+				<target xml:lang="pl" state="translated">Góra</target>
+        	</trans-unit>
+		    <trans-unit id="properties.placement.selectBoxEditor.values.bottom" xml:space="preserve">
+                <source>Bottom</source>
+				<target xml:lang="pl" state="translated">Dół</target>
+        	</trans-unit>
+
+			<trans-unit id="properties.termsDocument" xml:space="preserve">
+				<source>Terms Page</source>
+				<target xml:lang="pl" state="translated">Strona regulaminu</target>
+			</trans-unit>
+			<trans-unit id="properties.privacyPolicyDocument" xml:space="preserve">
+				<source>Privacy Policy Page</source>
+				<target xml:lang="pl" state="translated">Strona polityki prywatności</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

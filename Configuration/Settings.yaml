@@ -1,0 +1,9 @@
+TYPO3:
+  Neos:
+    typoScript:
+      autoInclude:
+        'Soee.Neos.CookieBar': true
+    userInterface:
+      translation:
+        autoInclude:
+          'Soee.Neos.CookieBar': ['Inspector', 'Main', 'NodeTypes/*']

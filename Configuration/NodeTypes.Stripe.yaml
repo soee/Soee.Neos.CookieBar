@@ -1,0 +1,53 @@
+'Soee.Neos.CookieBar:Stripe':
+  superTypes:
+    'TYPO3.Neos:Content': true
+  ui:
+    label: 'i18n'
+    icon: 'icon-list-alt'
+    group: 'structure'
+    position: '200'
+    inlineEditable: true
+    inspector:
+      groups:
+        stripeSettings:
+          label: 'i18n'
+          tab: 'default'
+          position: 5
+  properties:
+    placement:
+      type: string
+      defaultValue: 'bottom'
+      ui:
+        label: 'i18n'
+        help:
+          message: 'i18n'
+        reloadIfChanged: true
+        inspector:
+          group: 'stripeSettings'
+          position: 5
+          editor: 'Content/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            allowEmpty: false
+            values:
+              'top':
+                label: 'i18n'
+              'bottom':
+                label: 'i18n'
+    termsDocument:
+      type: reference
+      ui:
+        label: 'i18n'
+        inspector:
+          group: 'stripeSettings'
+          position: 10
+          editorOptions:
+            nodeTypes: ['TYPO3.Neos:Document']
+    privacyPolicyDocument:
+      type: reference
+      ui:
+        label: 'i18n'
+        inspector:
+          group: 'stripeSettings'
+          position: 15
+          editorOptions:
+            nodeTypes: ['TYPO3.Neos:Document']

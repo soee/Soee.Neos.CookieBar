@@ -1,0 +1,9 @@
+# Soee.Neos.CookieBar prototypes
+include: Prototypes/*
+
+page.body {
+    cookieBar = Soee.Neos.CookieBar:Stripe
+
+    // append cookie bar to the end of the body content
+    @process.appendCookieBar = ${value + this.cookieBar}
+}

@@ -1,0 +1,29 @@
+prototype(Soee.Neos.CookieBar:Stripe) < prototype(TYPO3.Neos:Content) {
+    @context.jsFunctionName = 'closeSoeeCookieBar'
+    jsFunctionName = ${jsFunctionName}
+
+    @context.cookieBarIdentifier = 'soee-cookie-bar'
+    cookieBarIdentifier = ${cookieBarIdentifier}
+
+    // attributes for the cookie bar container
+    attributes = TYPO3.TypoScript:Attributes {
+        id = ${cookieBarIdentifier}
+
+        class = TYPO3.TypoScript:RawArray {
+            base = 'soee-cookie-bar'
+            placement = ${q(node).property('placement') ? q(node).property('placement') : 'bottom'}
+        }
+    }
+
+    // attributes for button used to close cookie bar
+    buttonAttributes = TYPO3.TypoScript:Attributes {
+        id = 'soee-cookie-bar-button'
+
+        class = TYPO3.TypoScript:RawArray {
+            base = 'soee-cookie-bar-button'
+        }
+
+        href = '#'
+        onclick = ${jsFunctionName + '();'}
+    }
+}
